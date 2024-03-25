@@ -1,2 +1,6 @@
-Cross Origin Games
-Using this to try and bypass the Goguardian system
+fetch('https://example.com/api/data', {
+    method: 'GET',
+    headers: {
+        'Origin': 'http://yourgithubusername.github.io' // Your GitHub Pages URL
+    }
+})
